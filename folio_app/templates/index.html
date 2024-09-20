@@ -1,0 +1,530 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="{% static 'images/L_icon.png' %}">
+    <title>El/data/Portfolio/</title>
+
+    <!-- font -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,500i,700,900&amp;display=swap" rel="stylesheet">
+    <!-- end font -->
+
+    <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
+    <link rel="stylesheet" href="{% static 'css/font-awesome.css' %}">
+    <link rel="stylesheet" href="{% static 'css/fakeLoader.css' %}">
+    <link rel="stylesheet" href="{% static 'css/owl.carousel.css' %}">
+    <link rel="stylesheet" href="{% static 'css/owl.theme.default.css' %}">
+    <link rel="stylesheet" href="{% static 'css/magnific-popup.css' %}">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+
+</head>
+
+<body>
+
+    <!-- loader -->
+    <div class="fakeLoader"></div>
+    <!-- loader -->
+
+    <!-- header -->
+    <header id="home">
+
+        <!-- navbar -->
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+
+                <!-- navbar brand or logo -->
+                <a href="#" class="navbar-brand">
+                    <h2>{<img src="{% static 'images/L_icon.png' %}" alt="image not found">}DATA</h2> 
+                   
+                </a>
+                <!-- end navbar brand or logo -->
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo" aria-controls="navbarTogglerDemo" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div id="navbarTogglerDemo" class="collapse navbar-collapse">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a href="#home" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#about" class="nav-link">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#resume" class="nav-link">Resume</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#portfolio" class="nav-link">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#blog" class="nav-link">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#contact" class="nav-link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <!-- end navbar -->
+
+        <!-- home intro -->
+        <div class="home-intro segments">
+            <div class="container">
+                <div class="intro-content box-content">
+                    <div class="row justify-content-center">
+                        <div class="col-md-8 col-sm-12 col-xs-12">
+                            <div class="intro-caption">
+                                <span>I am Elgrace Jl</span>
+                                <h2>Developpeur <br> Full Stack</h2>
+                                <button class="button">Contact Moi</button>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-12 col-xs-12">
+                            <div class="intro-image">
+                                <img src="{% static 'images/img_header.jpg' %}" alt="image not found">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end home intro -->
+
+    </header>
+    <!-- end header -->
+
+    <!-- about -->
+    <div id="about" class="about segments">
+        <div class="container">
+            <div class="box-content">
+                <div class="row">
+                    <div class="col-md-6 col-sm-12 col-xs-12">
+                        <div class="content-left">
+                            <div class="section-title section-title-left">
+                                <h3>A propos</h3>
+                            </div>
+                            <div class="content">
+                                <h4> Introduction </h4>
+                                <p> Je m'appelle Elgrace Jarnol B, et je suis un développeur full stack passionné par la création d'applications web et mobiles </p>
+                                <br><h4> Expertise Technique</h4>
+                                <p> Avec une maîtrise des technologies front-end (HTML, CSS, JavaScript, React) et back-end (PHP, Laravel, Node.js, Django), je développe des solutions complètes du concept à la production. </p>
+                                <br><h4> Experience </h4>
+                                <p> Travaillé sur des projets variés, allant des systèmes de gestion à des applications de e-commerce, ce qui m'a permis d'acquérir une expertise approfondie dans le développement d'applications performantes et évolutives. </p>
+                                <br><h4> Philosophie/Approche du développement </h4>
+                                <p> Passionné par le code propre, les meilleures pratiques, et l'amélioration continue à travers l'apprentissage de nouvelles technologies. </p>
+                                <br><h4> Objectifs Professionnels: </h4>
+                                <p> Toujours à la recherche de nouveaux défis pour améliorer mes compétences et contribuer à des projets innovants.</p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-12 col-xs-12">
+                        <div class="content-right"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end about -->
+
+    <!-- resume -->
+    <div id="resume" class="resume segments">
+        <div class="container">
+            <div class="box-content">
+                <div class="section-title">
+                    <h3>Resume</h3>
+                </div>
+                <div class="owl-carousel owl-theme">
+                    <div class="content">
+                        <!-- my experience -->
+                        <div class="row ">
+                            <div class="col-md-6 col-sm-12 col-xs-12">
+                                <div class="content-left">
+                                    <div class="title-resume">
+                                        <h3>Experience</h3>
+                                        <h2>Plus de 3 ans d'experience en tant que <span>Developpeur informatique</span></h2>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-12 col-xs-12">
+                                <div class="content-right">
+                                    <ul class="timeline">
+                                        <li>
+                                            <h4>Application web pour la gestion des honoraire des enseignants</h4>
+                                            <span>Développer avec Php( framework Laravel) </span>
+                                        </li>
+                                        <li>
+                                            <h4> Application web d'agence Immobilier</h4>
+                                            <span>Développer avec Python( framework Django) </span>
+                                        </li>
+                                        <li>
+                                            <h4>E-commerce Numerique</h4>
+                                            <span>Développer avec Python( framework Django)</span>
+                                        </li>
+                                        <li>
+                                            <h4>Logiciele de Gestion de Super marché </h4>
+                                            <span>Développer avec Python( Tkinter)</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end my experience -->
+                    </div>
+                    <div class="content">
+                        <!-- my education -->
+                        <div class="row ">
+                            <div class="col-md-6 col-sm-12 col-xs-12">
+                                <div class="content-left">
+                                    <div class="title-resume">
+                                        <h3>FORMATION</h3>
+                                        <h2>Learning experience in a few <span>Professional Universities</span></h2>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-12 col-xs-12">
+                                <div class="content-right">
+                                    <ul class="timeline">
+                                        <li>
+                                            <h4>Ecole Communautaire de l'Enseignement Superieur (E.C.E.S) </h4>
+                                            <span> Faculté des sciences departement informatique (2021- 2024)</span>
+                                        </li>
+                                        <li>
+                                            <h4>Lycée victor Auganieur (L.V.A)</h4>
+                                            <span> Baccalaureat scientifique serie D (2020-2021)</span>
+                                        </li>
+                                        <li>
+                                            <h4>Formation en Informatique Bureatique</h4>
+                                            <span>Word, Excel, PowerPoint, etc... (2020)</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end my education -->
+                    </div>
+                    <div class="content">
+                        <!-- my skill -->
+                        <div class="my-skill">
+                            <div class="row ">
+                                <div class="col-md-6 col-sm-12 col-xs-12">
+                                    <div class="content-left">
+                                        <div class="title-resume">
+                                            <h3>compétences</h3>
+                                            <h2>Avec de bonnes compétences<span> personnelles</span> et <span>professionnelles</span></h2>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-12 col-xs-12">
+                                    <div class="content-right">
+                                        <div id="accordionSkill" class="accordion">
+                                            <div class="card">
+                                                <div id="personalSkill" class="card-header">
+                                                    <h2>
+                                                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
+                                                            <i class="fas fa-circle"></i>Personal Skill
+                                                        </button>
+                                                    </h2>
+                                                </div>
+
+                                                <div id="collapse1" class="collapse collapse-show" aria-labelledby="personalSkill" data-parent="#accordionSkill">
+                                                    <div class="card-body">
+                                                        <ul class="personalSkill">
+                                                            <li>
+                                                                <div class="skill-title">
+                                                                    <span> Creativité</span>
+                                                                </div>
+                                                                <div class="progress">
+                                                                    <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 85%"></div>
+                                                                </div>
+                                                            </li>
+                                                            <li>
+                                                                <div class="skill-title">
+                                                                    <span>Innovation</span>
+                                                                </div>
+                                                                <div class="progress">
+                                                                    <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%"></div>
+                                                                </div>
+                                                            </li>
+                                                            <li>
+                                                                <div class="skill-title">
+                                                                    <span>Communication</span>
+                                                                </div>
+                                                                <div class="progress">
+                                                                    <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%"></div>
+                                                                </div>
+                                                            </li>
+                                                            <li>
+                                                                <div class="skill-title">
+                                                                    <span>Motivation</span>
+                                                                </div>
+                                                                <div class="progress">
+                                                                    <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%"></div>
+                                                                </div>
+                                                            </li>
+                                                            <li>
+                                                                <div class="skill-title">
+                                                                    <span>Esprit d'equipe</span>
+                                                                </div>
+                                                                <div class="progress">
+                                                                    <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width: 95%"></div>
+                                                                </div>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="card">
+                                                <div id="proSkill" class="card-header">
+                                                    <h2>
+                                                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                                                            <i class="fas fa-circle"></i>Professional Skill
+                                                        </button>
+                                                    </h2>
+                                                </div>
+
+                                                <div id="collapse2" class="collapse" aria-labelledby="proSkill" data-parent="#accordionSkill">
+                                                    <div class="card-body">
+                                                        <ul class="pro-skill">
+                                                            <li>
+                                                                <div class="skill-title">
+                                                                    <span>Graphic Design</span>
+                                                                </div>
+                                                                <div class="progress">
+                                                                    <div class="progress-bar" role="progressbar" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100" style="width: 98%"></div>
+                                                                </div>
+                                                            </li>
+                                                            <li>
+                                                                <div class="skill-title">
+                                                                    <span>HTML & CSS</span>
+                                                                </div>
+                                                                <div class="progress">
+                                                                    <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%"></div>
+                                                                </div>
+                                                            </li>
+                                                            <li>
+                                                                <div class="skill-title">
+                                                                    <span>JavaScript</span>
+                                                                </div>
+                                                                <div class="progress">
+                                                                    <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%"></div>
+                                                                </div>
+                                                            </li>
+                                                            <li>
+                                                                <div class="skill-title">
+                                                                    <span>PHP</span>
+                                                                </div>
+                                                                <div class="progress">
+                                                                    <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
+                                                                </div>
+                                                            </li>
+                                                            <li>
+                                                                <div class="skill-title">
+                                                                    <span>Photography</span>
+                                                                </div>
+                                                                <div class="progress">
+                                                                    <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%"></div>
+                                                                </div>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end my skill -->
+                    </div>
+                </div>                
+            </div>
+        </div>
+    </div>
+    <!-- end resume -->
+
+    <!-- portfolio -->
+    <div id="portfolio" class="portfolio segments">
+        <div class="container">
+            <div class="box-content">
+                <div class="section-title">
+                    <h3>Mon Portfolio</h3>
+                </div>
+                <div class="portfolio-filter-menu">
+                    <ul>
+                        <li data-filter="all" class="active">
+                            <span>Voir tous</span>
+                        </li>
+                        {% for category in categories %}
+                            <li data-filter="{{ category.id }}">
+                                <span>{{ category.name }}</span>
+                            </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+
+                <div class="row no-gutters filtr-container">
+                    {% for folio in my_folios %}
+                    <div class="col-md-4 col-sm-12 col-xs-12 filtr-item" data-category="{{ folio.categorie.id }}">
+                        <div class="content-image">
+                            <a href="{{folio.image.url}}" class="portfolio-popup">
+                                <img style="height: 300px;" src="{{folio.image.url}}" alt="image not found">
+                                <div class="image-overlay"></div>
+                                <div class="portfolio-caption">
+                                    <div class="title">
+                                        <h4>{{folio.titre}}</h4>
+                                    </div>
+                                    <div class="subtitle">
+                                        <span>{{folio.description}}</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+                    
+        </div>
+    </div>
+    <!-- end portfolio -->
+
+    <!-- blog -->
+    <div id="blog" class="blog segments">
+        <div class="container">
+            <div class="section-title">
+                <h3>My Blog</h3>
+            </div>
+            <div class="row">
+                {% for blog in blogs  %}
+                <div class="col-md-6">
+                    <div class="content">
+                        <div class="image">
+                            <img style="height: 300px;" src="{{ blog.image.url}}" alt="image not found">
+                        </div>
+                        <div class="blog-title">
+                            <h4><a href="#">{{ blog.titre}}</a></h4>
+                            <div class="date">
+                                create: {{blog.create|date:"d F Y"}} <i class="fas fa-circle"></i> <a href="#"><span>{{blog.framework}}</span></a> 
+                               <p>  Update: {{blog.Update|date:"d F Y"}} </p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+    <!-- end blog -->
+
+    <!-- contact -->
+    <div id="contact" class="contact segments">
+        <div class="container">
+            <div class="box-content">
+                <div class="row">
+                    <div class="col-md-6 col-sm-12 col-xs-12">
+                        <div class="content-left">
+                            <div class="section-title section-title-left">
+                                <h3>Contact</h3>
+                            </div>
+                            <h2>Faire de vos concepts une réalité technologique</h2>
+                            <ul>
+                                <li>
+                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fab fa-dribbble"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fab fa-google"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-12 col-xs-12">
+                        <div class="content-right">
+                            <form action="{% url 'contact' %}" class="contact-form" method="POST">
+                                {% csrf_token %}
+                                <div class="row">
+                                    <div class="col">
+                                        <div id="first-name-field">
+                                            <input type="text" placeholder="Votre prenom" class="form-control" name="prenom" id="prenom">
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div id="last-name-field">
+                                            <input type="text" placeholder="Votre nom" class="form-control" name="nom" id="nom">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                        <div id="email-field">
+                                            <input type="email" placeholder="Adresse Email" class="form-control" name="email" id="email">
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div id="subject-field">
+                                            <input type="text" placeholder="Sujet" class="form-control" name="sujet" id="sujet">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                        <div id="message-field">
+                                            <textarea cols="30" rows="5" class="form-control" id="message" name="message" placeholder="Message"></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="button" type="submit" id="submit" name="submit">Envoyer</button>
+                            </form>
+                            {% if messages %}
+                                <div id="message" class="alert alert-success" role="alert">
+                                    {% for msg in messages %}
+                                        {{ msg }}
+                                    {% endfor %}
+                                </div>
+                            {% endif %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end contact -->
+
+    <!-- footer -->
+    <div class="footer segments">
+        <div class="container">
+            <div class="box-content">
+                <img src="{% static 'images/L_icon.png' %}" alt="image not found">
+                <p>Your vision, my code, our success.</p>
+            </div>
+        </div>
+    </div>
+    <!-- end footer -->
+
+    <script src="{% static 'js/jquery.min.js' %}"></script>
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+    <script src="{% static 'js/fakeLoader.min.js' %}"></script>
+    <script src="{% static 'js/owl.carousel.min.js' %}"></script>
+    <script src="{% static 'js/jquery.filterizr.min.js' %}"></script>
+    <script src="{% static 'js/imagesloaded.pkgd.min.js' %}"></script>
+    <script src="{% static 'js/jquery.magnific-popup.min.js' %}"></script>
+    <script src="{% static 'js/contact-form.js' %}"></script>
+    <script src="{% static 'js/main.js' %}"></script>
+
+
+</body>
+
+</html>
